@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/weston/Projects/Patrick/app/controllers'
+let g:netrw_dirhist_2='/Users/weston/.vim/bundle/vim-git'
+let g:netrw_dirhist_3='/Users/weston/Projects/Patrick'
+let g:netrw_dirhist_4='/Users/weston/Projects/Patrick/db/migrate'

@@ -1,0 +1,52 @@
+8
+
+dir
+2
+svn+ssh://baiselife/home/weston/svn/vim/project/indent
+svn+ssh://baiselife/home/weston/svn/vim
+
+
+
+2009-04-30T05:30:23.123900Z
+2
+weston
+
+
+svn:special svn:externals svn:needs-lock
+
+eruby.vim
+file
+
+
+
+
+2007-09-01T03:10:13.000000Z
+c4519887a8408517a92503a8ccbd5dcf
+2009-04-30T05:30:23.123900Z
+2
+weston
+
+erlang.vim
+file
+
+
+
+
+2008-01-23T05:05:26.000000Z
+3b3547cddde6c94fee9add6c0d3804fc
+2009-04-30T05:30:23.123900Z
+2
+weston
+
+ruby.vim
+file
+
+
+
+
+2007-09-01T03:10:13.000000Z
+1f9efa0a107863918e6be613702f5c6c
+2009-04-30T05:30:23.123900Z
+2
+weston
+
