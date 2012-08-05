@@ -80,7 +80,7 @@ map <Leader>t :FuzzyFinderTextMate<Enter>
 "autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
-"autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
 "let g:langpair="en|cn"
 set helplang=cn
