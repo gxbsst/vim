@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/weston/Projects/ruby-china'
+let g:netrw_dirhist_2='/Users/weston/Projects/Patrick/lib/core_ext/assets'
+let g:netrw_dirhist_3='/Users/weston/Projects/Patrick'
+let g:netrw_dirhist_4='/Users/weston/.ssh'
+let g:netrw_dirhist_5='/Users/weston/Projects/Patrick'
+let g:netrw_dirhist_6='/Users/weston/Projects/Patrick/app'
+let g:netrw_dirhist_7='/Users/weston/Projects/Patrick/app/controllers'
+let g:netrw_dirhist_8='/Users/weston/.vim/bundle/tlib_vim'
+let g:netrw_dirhist_9='/Users/weston/.vim'
