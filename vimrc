@@ -1,3 +1,6 @@
+" 鼠标可以工作咯
+set mouse=a
+
 " 定义临时文件的位置
 set backupdir=./.backup,.,/tmp
 set directory=.,./.backup,/tmp
@@ -81,6 +84,7 @@ endif
 " Or use vividchalk
 "colorscheme topfunky-light
 "colorscheme vibrantink
+"colorscheme solarized
 colorscheme emacs
 
 " Tab mappings.
@@ -106,7 +110,11 @@ map <Leader>t :FuzzyFinderTextMate<Enter>
 
 " Automatic fold settings for specific files. Uncomment to use.
 "autocmd FileType ruby setlocal foldmethod=syntax
+autocmd FileType ruby set foldmethod=syntax
 "autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
+"let ruby_fold=0               " Ruby
+set foldlevel=20
+set foldlevelstart=20
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
@@ -209,4 +217,8 @@ nmap <leader>n  :NERDTreeToggle<CR>
     set encoding=utf-8 " Necessary to show Unicode glyphs   
     set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 
-
+" 输入法解决
+"se imd
+"au InsertEnter * se noimd
+"au InsertLeave * se imd
+"au FocusGained * se imd

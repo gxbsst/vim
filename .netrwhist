@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/weston/.vim/bundle/ctrlp.vim'
-let g:netrw_dirhist_2='/Users/weston/.vim/bundle/ctrlp.vim/plugin'
-let g:netrw_dirhist_3='/Users/weston/Projects/cooper'
-let g:netrw_dirhist_4='/Users/weston/Projects/git-base/my_app/config'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/weston/Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar/Controllers'
+let g:netrw_dirhist_2='/Users/weston/Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar'
+let g:netrw_dirhist_3='/Users/weston/Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar/Controllers'
+let g:netrw_dirhist_4='/Users/weston/Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar/Controllers/Home'
+let g:netrw_dirhist_5='/Users/weston/Developer/rails-recurly-subscription-saas/config/initializers'
+let g:netrw_dirhist_6='/Users/weston/Projects/Patrick'
