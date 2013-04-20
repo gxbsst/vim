@@ -1,5 +1,5 @@
 " 鼠标可以工作咯
-set mouse=a
+"set mouse=a
 
 " 定义临时文件的位置
 set backupdir=./.backup,.,/tmp
@@ -42,7 +42,7 @@ set wildmode=list:longest         " Complete files like a shell.
 set ignorecase                    " Case-insensitive searching.
 set smartcase                     " But case-sensitive if expression contains a capital letter.
 
-set number                        " Show line numbers.
+"set number                        " Show line numbers.
 set ruler                         " Show cursor position.
 
 set incsearch                     " Highlight matches as you type.
@@ -85,7 +85,7 @@ endif
 "colorscheme topfunky-light
 "colorscheme vibrantink
 "colorscheme solarized
-colorscheme emacs
+colorscheme sunburst
 
 " Tab mappings.
 "map <leader>tt :tabnew<cr>
@@ -196,7 +196,7 @@ nmap <leader>n  :NERDTreeToggle<CR>
 
     set backspace=indent,eol,start  " backspace for dummies
     set linespace=0                 " No extra spaces between rows
-    set nu                          " Line numbers on
+    "    set nu                          " Line numbers on
     set showmatch                   " show matching brackets/parenthesis
     set incsearch                   " find as you type search
     set hlsearch                    " highlight search terms
@@ -222,3 +222,4 @@ nmap <leader>n  :NERDTreeToggle<CR>
 "au InsertEnter * se noimd
 "au InsertLeave * se imd
 "au FocusGained * se imd
+let g:Powerline_symbols = 'fancy'
