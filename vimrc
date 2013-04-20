@@ -1,5 +1,5 @@
 " 鼠标可以工作咯
-set mouse=a
+"set mouse=a
 
 " 定义临时文件的位置
 set backupdir=./.backup,.,/tmp
@@ -85,7 +85,6 @@ endif
 "colorscheme topfunky-light
 "colorscheme vibrantink
 "colorscheme solarized
-"colorscheme emacs
 colorscheme sunburst
 
 " Tab mappings.
@@ -223,3 +222,4 @@ nmap <leader>n  :NERDTreeToggle<CR>
 "au InsertEnter * se noimd
 "au InsertLeave * se imd
 "au FocusGained * se imd
+let g:Powerline_symbols = 'fancy'
