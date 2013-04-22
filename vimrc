@@ -223,3 +223,14 @@ nmap <leader>n  :NERDTreeToggle<CR>
 "au InsertLeave * se imd
 "au FocusGained * se imd
 let g:Powerline_symbols = 'fancy'
+
+
+" 显示 Ruby/Rails/Rspec 文档
+"
+"打开浏览器
+let g:ruby_doc_command='open'
+let g:ruby_doc_ruby_host='http://apidock.com/ruby/'
+"使用方法， 光标在单词上面 然后大写"
+"RB for Ruby
+"RS for RSpec
+"RR for Rails
