@@ -11,7 +11,7 @@ map ,,  :FufCoverageFile!<cr>
 " 查找项目的文件
 map ,.  :FufBuffer!<cr>
 " 查找bufferr的文件
-let g:fuf_coveragefile_exclude = '\v\~$|\.(o|exe|DS_Store|dll|bak|orig|swp)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|(tmp|log|db/migrate|vendor)'
+let g:fuf_coveragefile_exclude = '\v\~$|\.(o|exe|DS_Store|dll|bak|orig|swp)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|(tmp|log|db/migrate)'
 let g:fuf_enumeratingLimit = 5000
 let g:fuf_coveragefile_prompt = ':'
 let g:fuf_buffer_prompt = ':'
@@ -81,11 +81,6 @@ if has('statusline')
   set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
 endif
 
-" Or use vividchalk
-"colorscheme topfunky-light
-"colorscheme vibrantink
-"colorscheme solarized
-colorscheme sunburst
 
 " Tab mappings.
 "map <leader>tt :tabnew<cr>
@@ -234,3 +229,12 @@ let g:ruby_doc_ruby_host='http://apidock.com/ruby/'
 "RB for Ruby
 "RS for RSpec
 "RR for Rails
+
+" Or use vividchalk
+"colorscheme topfunky-light
+"colorscheme vibrantink
+"colorscheme solarized
+"colorscheme sunburst
+""colorscheme vividchalk
+colorscheme codeschool
+let g:codeschool_termcolors=256
