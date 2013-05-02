@@ -1,11 +1,10 @@
-" 鼠标可以工作咯
-"set mouse=a
+""set mouse=a
 
 " 定义临时文件的位置
-set backupdir=./.backup,.,/tmp
-set directory=.,./.backup,/tmp
+""set backupdir=./.backup,.,/tmp
+""set directory=.,./.backup,/tmp
 
-" fuzzyfinder
+"" fuzzyfinder
 " {
 map ,,  :FufCoverageFile!<cr>
 " 查找项目的文件
@@ -22,7 +21,10 @@ let g:fuf_buffer_prompt = ':'
 
 set nocompatible                  " Must come first because it changes other options.
 
-silent! call pathogen#runtime_append_all_bundles()
+""silent! call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
@@ -94,7 +96,7 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
 " Uncomment to use Jamis Buck's file opening plugin
-map <Leader>t :FuzzyFinderTextMate<Enter>
+"map <Leader>t :FuzzyFinderTextMate<Enter>
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
@@ -238,3 +240,9 @@ let g:ruby_doc_ruby_host='http://apidock.com/ruby/'
 ""colorscheme vividchalk
 colorscheme codeschool
 let g:codeschool_termcolors=256
+
+vmap <C-c><C-c> <Plug>SendSelectionToTmux
+nmap <C-c><C-c> <Plug>NormalModeSendToTmux
+nmap <C-c>r <Plug>SetTmuxVars
+"let g:no_turbux_mappings = 1
+"set noshowmode
