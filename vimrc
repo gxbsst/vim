@@ -21,10 +21,10 @@ let g:fuf_buffer_prompt = ':'
 
 set nocompatible                  " Must come first because it changes other options.
 
-""silent! call pathogen#runtime_append_all_bundles()
+"silent! call pathogen#runtime_append_all_bundles()
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+""syntax on
+""filetype plugin indent on
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
@@ -238,8 +238,9 @@ let g:ruby_doc_ruby_host='http://apidock.com/ruby/'
 "colorscheme solarized
 "colorscheme sunburst
 ""colorscheme vividchalk
-colorscheme codeschool
-let g:codeschool_termcolors=256
+""colorscheme codeschool
+colorscheme github
+""let g:codeschool_termcolors=256
 
 vmap <C-c><C-c> <Plug>SendSelectionToTmux
 nmap <C-c><C-c> <Plug>NormalModeSendToTmux
@@ -248,10 +249,14 @@ nmap <C-c>r <Plug>SetTmuxVars
 "set noshowmode
 
 " Format CSS 
-map <C-c>f :call CssPretty()<CR>
+""map <C-c>f call CssPretty()<CR>
 
 " Format Javascript
 map <c-f> :call JsBeautify()<cr>
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+autocmd BufEnter *.c call SourceTagsVim()
+
+let g:EclimCompletionMethod = 'omnifunc'
